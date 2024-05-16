@@ -61,8 +61,9 @@ nav a:hover {
   opacity: 0.7;
 }
 
-
-main, section, .nameContainer {
+main,
+section,
+.nameContainer {
   display: flex;
   flex-direction: column;
 }
@@ -113,7 +114,7 @@ section {
 
 .stats div i {
   font-size: 1.4em;
-  color: #f59e0b
+  color: #f59e0b;
 }
 
 .stats div div {
@@ -152,16 +153,16 @@ section {
 }
 
 .projectItem h3 {
-   color: #f59e0b;
+  color: #f59e0b;
 }
 
-.projectItem div:first-child {
+.projectItem > div:first-child {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.projectItem div:last-child {
+.projectItem > div:last-child {
   aspect-ratio: 16/9;
   max-width: 30%;
   overflow: hidden;
@@ -184,7 +185,7 @@ section {
 
 @media (min-width: 640px) {
   .statsContainer {
-      flex-direction: row;
+    flex-direction: row;
   }
   .stats {
     gap: 0px;
