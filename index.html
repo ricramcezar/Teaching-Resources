@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ELT Resources for Teachers 💻</title>
+    <title>Resources for English Language Teachers</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -17,102 +18,80 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header>
-      <h2>RC</h2>
-      <nav>
-        <a>Instagram</a>
-        <a>LinkedIn</a>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <div class="nameContainer">
-          <h1>Ricardo Cezar</h1>
-          <p class="darkerText">Helping English Language Teachers build rock-solid knowledge, leading to confident and impactful teaching.</p>
-        </div>
-        <div class="statsContainer">
-          <div class="imgContainer">
-            <img
-              src="https://media.licdn.com/dms/image/D4D03AQFYl2RJ_0fGvQ/profile-displayphoto-shrink_400_400/0/1665509452461?e=1721260800&v=beta&t=KOF0F_CRwXVrywfmNkmcg6WIt-FLaLE6cB3P6WtqBUA"
-              alt="profile-img"
-            />
-          </div>
-          <div class="stats darkerText">
-            <div>
-              <div>
-                <i class="fa-solid fa-apple-whole"></i>
-              </div>
-              <p class="">Teacher Educator</p>
-            </div>
-            <div>
-              <div>
-                <i class="fa-solid fa-robot"></i>
-              </div>
-              <p class="">AI Enthusiast</p>
-            </div>
-            <div>
-              <div>
-                <i class="fa-solid fa-book-open-reader"></i>
-              </div>
-              <p class="">Lifelong Learner</p>
-            </div>
-          </div>
-        </div>
-        <p class="aboutMe">
-          Hi, I'm Ricardo Cezar, an experienced TESOL teacher and teacher
-          trainer based in Brazil. I'm certified by Cambridge Assessment English
-          with the Celta, Train the Trainer, Delta Module 1 and Delta Module 3
-          certificates.
-        </p>
-        <div>
-          <a class="outreach darkerText">
-            <i class="fa-solid fa-arrow-right"></i>
-            <p>Email me</p>
-          </a>
-        </div>
-      </section>
-      <section class="projectContainer">
-        <h2 class="darkerText headerText">Resources for English Teachers</h2>
-        <div class="projectItem">
-          <div>
-            <h3 class="darkerText">Lesson Plan Freebies</h3>
-            <p>
-              Get access to two complete lessons (levels A2 and B1), including
-              slides, audios and suggested procedures.
-            </p>
-          </div>
-          <div>
-            <img src="./public/freebies.png" alt="lesson-plan-freebies-img" />
-            </div>
-        </div>
-        <div class="projectItem">
-          <div>
-            <h3 class="darkerText">Free Workshop</h3>
-            <p>
-              Learn how spelling rules can help your students improve their
-              pronunciation.
-            </p>
-          </div>
-          <div>
-            <img src="./public/spelling.png" alt="spelling-workshop-img" />
-          </div>
-        </div>
-        <div class="projectItem">
-          <div>
-            <h3 class="darkerText">Basic Pronunciation Course</h3>
-            <p>
-              A practical and logical study methodology that has been tested and
-              approved by more than 500 teachers.
-            </p>
-          </div>
-          <div>
-            <img src="./public/sound-reboot.png" alt="sound-reboot-img" />
-          </div>
-        </div>
-      </section>
-    </main>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/avatar.png"
+          alt="Foto de Ricardo Cezar sorrindo, usando óculos e camisa polo, barba e fundo amarelo"
+        />
+        <p>@ricardocezar.elt</p>
+      </div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      
+      
+      
+      <ul>
+        <li>
+        <a href="https://www.canva.com/design/DAGLHHhlfGs/Lcq7ZAONE-PVtzbzAF1A_g/edit?utm_content=DAGLHHhlfGs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" id="bt-pronsig"><strong>BRAZ-TESOL PronSIG Slides</strong></a>
+      </li>
+        <li>
+          <a
+            href="https://drive.google.com/drive/folders/1TI9qxR3ADZ0kxM6coKVbiQFlOj4lrhdx?usp=sharing"
+            target="_blank"
+            >Lesson Plan Freebies</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://ricardocezar.com.br/pronunciation-spelling-workshop/"
+            target="_blank"
+            >Free Workshop</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://ricardocezar.com.br/sound-reboot-ppt/"
+            target="_blank"
+            >Basic Pronunciation Course</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://whatsapp.com/channel/0029VaBu0F1GZNCof6cROo3o"
+            target="_blank"
+            >WhatsApp Channel</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://www.instagram.com/ricardocezar.elt" target="_blank"
+          ><ion-icon name="logo-instagram"></ion-icon
+        ></a>
+        <a href="https://www.linkedin.com/in/ricardocezarelt" target="_blank"
+          ><ion-icon name="logo-linkedin"></ion-icon
+        ></a>
+        <a href="https://wa.me/+5562981683709" target="_blank"
+          ><ion-icon name="logo-whatsapp"></ion-icon
+        ></a>
+      </div>
+      <footer>
+        Made with ♥ by
+        <a href="https://www.instagram.com/ricardocezar.elt">Ricardo Cezar</a>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
   </body>
 </html>
